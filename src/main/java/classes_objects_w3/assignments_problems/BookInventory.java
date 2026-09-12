@@ -1,4 +1,4 @@
-package classes_objects_w3.ap1;
+package classes_objects_w3.assignments_problems;
 
 public class BookInventory {
     String title;

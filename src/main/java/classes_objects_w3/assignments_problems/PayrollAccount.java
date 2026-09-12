@@ -1,4 +1,4 @@
-package classes_objects_w3.ap2;
+package classes_objects_w3.assignments_problems;
 
 public class PayrollAccount {
     private double basicSalary;

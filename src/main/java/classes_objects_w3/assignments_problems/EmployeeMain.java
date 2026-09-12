@@ -1,7 +1,7 @@
-package classes_objects_w3.ap3;
+package classes_objects_w3.assignments_problems;
 
 import java.util.Scanner;
-public class Main {
+public class EmployeeMain {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter permanent employee - empId, empName, salary: ");

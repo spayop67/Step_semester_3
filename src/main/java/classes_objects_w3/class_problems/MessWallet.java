@@ -1,4 +1,4 @@
-package classes_objects_w3.cp2;
+package classes_objects_w3.class_problems;
 
 public class MessWallet {
     private double balance;

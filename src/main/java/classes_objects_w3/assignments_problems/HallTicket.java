@@ -1,4 +1,4 @@
-package classes_objects_w3.ap4;
+package classes_objects_w3.assignments_problems;
 
 public class HallTicket {
     String studentName;

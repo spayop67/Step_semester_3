@@ -1,7 +1,7 @@
-package classes_objects_w3.cp3;
+package classes_objects_w3.class_problems;
 
 import java.util.Scanner;
-public class Main {
+public class CourseMain {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter code, title, credits (theory-only course): ");

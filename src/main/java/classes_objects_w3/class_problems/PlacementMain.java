@@ -1,7 +1,7 @@
-package classes_objects_w3.cp1;
+package classes_objects_w3.class_problems;
 
 import java.util.Scanner;
-public class Main {
+public class PlacementMain {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = 3;

@@ -1,7 +1,7 @@
-package classes_objects_w3.ap5;
+package classes_objects_w3.assignments_problems;
 
 import java.util.Scanner;
-public class Main {
+public class EmployeeeMain {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter number of employees: ");
@@ -11,9 +11,9 @@ public class Main {
             String[] parts = sc.nextLine().split(",");
             String name = parts[0].trim();
             double salary = Double.parseDouble(parts[1].trim());
-            new Employee(name, salary);
+            new Employeee(name, salary);
         }
-        Employee.printCompanyInfo();
+        Employeee.printCompanyInfo();
         sc.close();
     }
 }

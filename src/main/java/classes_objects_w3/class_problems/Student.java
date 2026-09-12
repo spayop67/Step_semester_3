@@ -1,4 +1,4 @@
-package classes_objects_w3.cp5;
+package classes_objects_w3.class_problems;
 
 public class Student {
     String name;
