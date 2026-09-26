@@ -1,0 +1,15 @@
+public class ParkingTicket {
+    String vehicleNo;
+    double ratePerMinute;
+    public ParkingTicket(String vehicleNo, double ratePerMinute) {
+        this.vehicleNo = vehicleNo;
+        this.ratePerMinute = ratePerMinute;
+    }
+    final double calculateFine(int overstayMinutes) {
+        return overstayMinutes * ratePerMinute;
+    }
+    final void printReceipt(int overstayMinutes) {
+        double fine = calculateFine(overstayMinutes);
+        System.out.println(vehicleNo + " - Fine: Rs " + fine);
+    }
+}
