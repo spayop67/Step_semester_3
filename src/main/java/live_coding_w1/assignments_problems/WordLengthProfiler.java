@@ -1,0 +1,15 @@
+package live_coding_w1.assignments_problems;
+
+public class WordLengthProfiler {
+    static void classifyWordLengths(String review) {
+        String[] words = review.split("\\s+");
+        int shortCount = 0, mediumCount = 0, longCount = 0;
+        for (int i = 0; i < words.length; i++) {
+            int len = words[i].length();
+            if (len <= 4) shortCount++;
+            else if (len <= 8) mediumCount++;
+            else longCount++;
+        }
+        System.out.println("Short: " + shortCount + " | Medium: " + mediumCount + " | Long: " + longCount);
+    }
+}
