@@ -1,0 +1,5 @@
+package abstraction_interface_w7.class_problems;
+
+public interface Printable {
+    String printLabel();
+}
