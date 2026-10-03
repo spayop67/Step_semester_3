@@ -1,3 +1,5 @@
+import InnerClasses_UMLdiagrams_w8.class_problems.PaymentProcessor;
+
 import java.util.Scanner;
 public class PaymentProcessorMain {
     public static void main(String[] args) {

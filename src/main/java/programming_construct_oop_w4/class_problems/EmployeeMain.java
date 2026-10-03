@@ -1,3 +1,5 @@
+import InnerClasses_UMLdiagrams_w8.class_problems.Employee;
+
 import java.util.Scanner;
 public class EmployeeMain {
     public static void main(String[] args) {
